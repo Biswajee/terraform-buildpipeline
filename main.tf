@@ -1,5 +1,4 @@
 provider "google" {
-  credentials = file("secrets.json")
   version = "~> 3.45.0"
   project = "terraform-experiments"
   region  = "us-central1"
