@@ -4,6 +4,7 @@ steps:
     Contents: |
       main.tf
       secrets.json
+      tfplan.json
     TargetFolder: '$(Build.BinariesDirectory)'
     CleanTargetFolder: true
 - task: ArchiveFiles@2
